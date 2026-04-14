@@ -109,13 +109,13 @@ void run(int argc, char** argv)
     pin_stats_pause(cycles);
     pin_stats_dump(cycles);
 
-#ifdef BENCH_PRINT
-    for (int i = 0; i < cols; i++)
-            printf("%d ",data[i]) ;
-    printf("\n") ;
-    for (int i = 0; i < cols; i++)
-            printf("%d ",dst[i]) ;
-    printf("\n") ;
+#ifdef BENCH_PRINT
+    for (int i = 0; i < cols; i++)
+            printf("%d ",data[i]) ;
+    printf("\n") ;
+    for (int i = 0; i < cols; i++)
+            printf("%d ",dst[i]) ;
+    printf("\n") ;
 #endif
 
     delete [] data;
