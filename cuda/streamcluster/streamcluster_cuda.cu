@@ -26,7 +26,7 @@ using namespace std;
 
 #define THREADS_PER_BLOCK 512
 #define MAXBLOCKS 65536
-#define CUDATIME
+// #define CUDATIME
 
 // host memory
 float *work_mem_h;

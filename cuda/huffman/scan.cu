@@ -36,6 +36,8 @@
 #include <stdio.h>
 #include "cutil.h"
 
+#define max(a, b) (a > b ? a : b)
+
 inline bool
 isPowerOfTwo(int n)
 {
